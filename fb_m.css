@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #f0f2f5 ;
+    font-family: 'Golos Text', sans-serif;
+}
+.cr{
+    position: absolute;
+    top: 30%;
+    left:14%;
+    font-size: larger;
+
+    
+}
+header{
+    width:320px;
+    height: 350px;
+    position: absolute;
+    top: 20%;
+    left:57%;
+    background: white;
+    padding-top: 5px;
+    border-radius: 10px;
+}
+.box input{
+    width: 70%;
+    margin: 10px;
+    margin-top: 15px;
+    margin-left: 25px;
+    padding: 13px 18px;
+    border-radius: 10px;
+}
+.link{
+    text-align: center;
+    background-color: blue;
+    margin-top: 2%;
+    padding: 11px;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-right: 29px;
+}
+
+.link a{
+    background-color: blue;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.link1{
+    text-align: center;
+    margin-top: 9px;
+    text-decoration: none;
+    color: rgb(216, 212, 212);
+}
+.link1 a{
+    color: rgb(25, 14, 185);
+}
+
+.link2{
+    background-color: green;
+    text-align: center;
+    margin-top: 5px;
+    
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.link2 a{
+    color: white;
+}
